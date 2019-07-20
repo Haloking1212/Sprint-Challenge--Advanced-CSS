@@ -1,1 +1,34 @@
 // Mixins Here
+
+.a-style {
+    text-decoration: none;
+    color:#454A59;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding-left:5%;
+    padding-right:5%;
+}
+.nav-text-align {
+    text-align: center;
+}
+
+//parametrics here
+.button-style (@radius) {
+    padding: 3%;
+    background-color: #22283A;
+    color:white;
+    border-radius: @radius;
+  }
+  
+  .button-size (@size) {
+      width: 49%;
+      height: 20%;
+      font-size: @size;
+  }
+
+  //parametric mixin here
+
+  /*.sign-up(@radius) {
+      : @radius;
+  }
+*/
